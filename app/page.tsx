@@ -186,7 +186,7 @@ export default function HomePage() {
                     <ChevronRight className="ml-3 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </Link>
-                <Link href="/freelancer/dashboard" className="flex-1">
+                <Link href="/freelancer/profile" className="flex-1">
                   <Button
                     size="lg"
                     className="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-lg px-8 py-6 group"
@@ -299,13 +299,14 @@ export default function HomePage() {
                       >
                         <X className="h-8 w-8" />
                       </Button>
-                      <Button
-                        size="lg"
-                        className="w-16 h-16 rounded-full bg-green-500 hover:bg-green-600 border-0"
-                        onClick={() => handleSwipe("right")}
-                      >
-                        <Heart className="h-8 w-8" />
-                      </Button>
+                      <Link href="/freelancer/dashboard">
+                        <Button
+                          size="lg"
+                          className="w-16 h-16 rounded-full bg-green-500 hover:bg-green-600 border-0"
+                        >
+                          <Heart className="h-8 w-8" />
+                        </Button>
+                      </Link>
                     </div>
                   </div>
                 </div>
