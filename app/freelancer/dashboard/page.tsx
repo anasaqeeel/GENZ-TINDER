@@ -23,7 +23,7 @@ import {
   TrendingUp,
   Building,
 } from "lucide-react"
-
+// saad was here
 export default function FreelancerDashboard() {
   const [currentProject, setCurrentProject] = useState(0)
   const [isAnimating, setIsAnimating] = useState(false)
